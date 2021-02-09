@@ -73,7 +73,7 @@ fun playerInput(name: String, board: Array<CharArray>): Boolean {
 
     //3글자로 입력하지 않은경우
     if (input.length != 3) {
-        println("양식에 맞게 다시 입력해주세요.")
+        println("양식에맞게 다시 입력해주세요.")
         return false
     }
 
